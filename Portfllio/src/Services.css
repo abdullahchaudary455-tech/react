@@ -1,0 +1,142 @@
+/* ==============================
+   Services Page Styling
+   ============================== */
+
+.services {
+  padding: 100px 10%;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-container {
+  text-align: center;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.services-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1c1f26;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.services-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+}
+
+/* ======= Services Grid ======= */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* ======= Service Card ======= */
+.service-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 40px 25px;
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 123, 255, 0.2);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #1c1f26;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+  .services {
+    padding: 70px 5%;
+  }
+
+  .services-title {
+    font-size: 2.2rem;
+  }
+
+  .service-card {
+    padding: 30px 20px;
+  }
+}
+/* Existing service styles will stay same */
+
+/* === Team Section === */
+.team-section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.team-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.team-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  margin: 10px 0 5px;
+  color: #1b2b52; /* matches your highlight color scheme */
+}
+
+.team-card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Optional - make highlight color match services */
+.highlight {
+  color: #243b6b;
+}
+

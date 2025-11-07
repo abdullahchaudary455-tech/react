@@ -1,0 +1,27 @@
+  /* Carousel wrapper for size control */
+  .carousel-wrapper {
+    max-width: 10000px;     /* slider ki width chhoti */
+    margin:  auto;    /* center me align */
+    border-radius: 15px;  /* rounded edges */
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Image resize */
+  .carousel-item img {
+    height: 1000px;        /* slider ki height chhoti */
+    object-fit: cover;    /* fit cleanly without stretching */
+    border-radius: 15px;
+  }
+
+  /* Caption text */
+  .carousel-heading {
+    color: #00E6E6;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .carousel-text {
+    color: #FFD700;
+    font-size: 0.9rem;
+  }

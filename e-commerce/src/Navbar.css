@@ -1,0 +1,41 @@
+/* Navbar background */
+.navbar {
+  background-color: #0B1220; /* Dark navy */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  padding: 18px 20px;
+  border-radius: 10px;
+}
+
+/* Brand (Elitezon) */
+.navbar-brand {
+  color: #00E6E6 !important;   /* Cyan */
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #FFD700 !important;  /* Golden on hover */
+}
+
+/* Navbar links (Home, About, Contact Us) */
+.navbar-nav .nav-link {
+  color: #E0E0E0 !important;   /* Light gray by default */
+  font-size: 1.1rem;
+  margin: 0 10px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 5px;
+}
+
+/* Hover effect (sab pe same) */
+.navbar-nav .nav-link:hover {
+  color: #00E6E6 !important;   /* Cyan */
+  border-bottom: 2px solid #00E6E6; /* Cyan underline */
+}
+
+/* Active link (sab ke liye same style) */
+.navbar-nav .nav-link.active {
+  color: #FFD700 !important;   /* Golden text */
+  font-weight: bold;
+  border-bottom: 2px solid #FFD700; /* Golden underline */
+}
