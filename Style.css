@@ -1,0 +1,19 @@
+
+body {
+    background-color: bisque;
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+h2 {
+    background-color: cadetblue;
+    color: black;
+}
+div.containor {
+    
+    float: right;
+}
+img {
+    border-radius: 70px;
+    shape-image-threshold: inherit;
+}
